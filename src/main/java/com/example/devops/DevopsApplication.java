@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class DevopsApplication {
 	@GetMapping("/message")
 	public String getMessage() {
-		log.info("Method getMessage()");
+		log.info("Method Name getMessage()");
 		return "Welcome to Devops!!";
 	}
 
